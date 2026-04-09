@@ -1,4 +1,4 @@
-a=5
-b=3
-c=a+b
-print("the sum is:"c)
+def add_numbers(a,b):
+    return a+b
+result=add_numbers(5,2)
+print(result)
